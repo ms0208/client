@@ -1,0 +1,48 @@
+/* MessageList.css */
+.message-list {
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-item {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.message-item p {
+    margin: 5px 0;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto 0;
+}
+
+.message-form input,
+.message-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.message-form button {
+    background: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background: #0056b3;
+}
